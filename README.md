@@ -1,6 +1,11 @@
 # Runtime Prefab Painter Documentation
 ## Introduction
 Runtime Prefab Painter is a runtime Unity tool that allows you to paint prefabs onto target objects in a scene using GPU instancing. It can be used for placing objects like trees, rocks, grass, etc., on a terrain or any other object in the scene.
+
+https://user-images.githubusercontent.com/47041584/226659222-d2688dac-eb21-41c1-ac11-0012ae282b8d.mp4
+
+https://user-images.githubusercontent.com/47041584/226659908-0ecf77b5-4695-492f-a0f4-a0f3790bd279.mp4
+
 ## Features
 Runtime Prefab Painter has the following features:
 * Customizable brush parameters like paint radius, brush density, and maximum instances per batch.
@@ -29,8 +34,8 @@ The following parameters can be set in the Inspector window of the Painter scrip
 | **Paint Radius**  | The radius of the brush.  |
 |**Brush Density**  | The number of instances to be painted per click.  |
 | **Max Instances In Batch**  | The maximum number of instances that can be rendered per batch. Each batch should not exceed the limit of 1023.  |
-| **Max Batch Count**  |The maximum number of batches that can be created.  |
-| **Start Height**  |The height at which the instances will be created.  |
+
+![Script](https://user-images.githubusercontent.com/47041584/226659497-7ce7cfb2-e07a-4bb2-a124-d8b21e4c17f2.png)
 
 ## Notes
 * The Painter Tool uses Raycasting to determine the object(s) on which the painting will be done. Make sure the object(s) are on the layer(s) specified in the Paint Target Layer parameter.
