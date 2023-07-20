@@ -1,6 +1,6 @@
 # Runtime Prefab Painter Documentation
 ## Introduction
-Runtime Prefab Painter is a runtime Unity tool that allows you to paint prefabs onto target objects in a scene using GPU instancing. It can be used for placing objects like trees, rocks, grass, etc., on a terrain or any other object in the scene.
+Runtime Prefab Painter is a runtime Unity tool that allows you to paint prefabs onto target objects in a scene using GPU instancing. It can be used for placing objects like trees, rocks, grass, etc., on a terrain or any other object in the scene without loss of performance caused by having so many instance.
 
 https://user-images.githubusercontent.com/47041584/226659222-d2688dac-eb21-41c1-ac11-0012ae282b8d.mp4
 
